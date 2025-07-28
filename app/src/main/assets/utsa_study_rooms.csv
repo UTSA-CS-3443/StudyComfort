@@ -1,0 +1,13 @@
+building,floor,name,seating capacity,campus
+John Peace Library,2,2.01 (Room A2),4,Main
+John Peace Library,2,2.05 (Room A5),4,Main
+John Peace Library,3,3.04 (Room B4),6,Main
+John Peace Library,3,3.12 (Room B12),6,Main
+John Peace Library,4,4.02 (Room C2),6,Main
+John Peace Library,4,4.03 (Room C3),6,Main
+Downtown Library,2,2.02 (Room M2),4,Downtown
+Downtown Library,2,2.03 (Room O3),6,Downtown
+Applied Engineering & Technology Library,1,1.01 (Room A),6,Main
+Applied Engineering & Technology Library,1,1.03 (Room C),6,Main
+San Pedro I,2,2.32 (Study Room 232),4,Downtown
+San Pedro I,3,3.14 (Study Room 314),6,Downtown
