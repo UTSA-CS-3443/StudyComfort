@@ -1,5 +1,4 @@
 # StudyComfort
-Certainly! Here's a robust and professional README project description based on the details you provided:
 
 **Study Comfort** is an Android mobile application developed for the CS-3443 Applications Programming course at the University of Texas at San Antonio (UTSA). The application is designed to help UTSA students locate and reserve study rooms that best meet their individual preferences and needs across campus.
 
