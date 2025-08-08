@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/reviewsRoot"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Header Bar -->
+    <RelativeLayout
+        android:background="#E46F2E"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+
+        <ImageView
+            android:src="@android:drawable/ic_menu_compass"
+            android:layout_alignParentStart="true"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <ImageButton
+            android:id="@+id/btnMenu"
+            android:background="@android:color/transparent"
+            android:src="@android:drawable/ic_menu_more"
+            android:layout_alignParentEnd="true"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+    </RelativeLayout>
+
+    <!-- Page Title -->
+    <TextView
+        android:text="Reviews"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- List of Reviews -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerReviews"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Add Review button -->
+    <Button
+        android:id="@+id/btnAddReview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Review"
+        android:layout_margin="12dp" />
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">StudyComfort</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_instagram">Instagram</string>
+    <string name="cd_twitter">Twitter</string>
+    <string name="cd_facebook">Facebook</string>
+    <string name="cd_hero">UTSA Campus Image</string>
+
+    <!-- Questionnaire prompts -->
+    <string name="select_grade">Select grade level</string>
+    <string name="select_hours">Select preferred hours</string>
+    <string name="select_noise">Select noise tolerance</string>
+    <string name="select_area">Select campus/area</string>
+    <string name="select_seats">Select seating needed</string>
+    <string name="select_style">Select study style</string>
+    <string name="hint_resources">Resources needed (optional)</string>
+    <string name="save_preferences">Save Preferences &amp; View Recommendations</string>
+
+    <!-- Social URLs -->
+    <string name="url_instagram">https://www.instagram.com/utsa_studycomfort</string>
+    <string name="url_twitter">https://x.com/utsa_studycomfort</string>
+    <string name="url_facebook">https://www.facebook.com/utsa.studycomfort</string>
+</resources>

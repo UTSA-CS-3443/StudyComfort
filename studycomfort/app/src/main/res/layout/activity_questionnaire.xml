@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Study Preferences Questionnaire"
+            android:textStyle="bold" android:textSize="22sp"
+            android:paddingBottom="12dp"/>
+
+        <Spinner android:id="@+id/spGrade" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Spinner android:id="@+id/spHours" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Spinner android:id="@+id/spNoise" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Spinner android:id="@+id/spArea"  android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Spinner android:id="@+id/spSeats" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Spinner android:id="@+id/spStyle" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/etResources"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="What resources do you need?"
+            android:minLines="2" android:gravity="top" android:inputType="textMultiLine"
+            android:layout_marginTop="8dp"/>
+
+        <Space android:layout_width="match_parent" android:layout_height="12dp"/>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Save Preferences"/>
+    </LinearLayout>
+</ScrollView>

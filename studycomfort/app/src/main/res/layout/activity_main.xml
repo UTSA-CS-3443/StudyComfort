@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivHero"
+            android:src="@drawable/ut_campus"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="220dp" />
+
+        <!--  Title  -->
+        <TextView
+            android:id="@+id/tvTitle"
+            android:text="StudyComfort"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!--  Welcome Card  -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="#FFF3E9"
+            android:padding="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Welcome back!"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Please sign in to save your favorite spots."
+                android:layout_marginTop="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnSignIn"
+                android:text="SIGN IN"
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnCreate"
+                android:text="CREATE ACCOUNT"
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!--  Follow us  -->
+        <TextView
+            android:text="Follow us"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/btnInstagram"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_instagram"
+                android:contentDescription="@string/cd_instagram"
+                android:scaleType="centerInside"
+                android:tint="@null"
+                app:tint="@null"
+                android:layout_width="48dp"
+                android:layout_height="48dp" />
+
+            <ImageButton
+                android:id="@+id/btnTwitter"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_twitter"
+                android:contentDescription="@string/cd_twitter"
+                android:scaleType="centerInside"
+                android:tint="@null"
+                app:tint="@null"
+                android:layout_marginStart="16dp"
+                android:layout_width="48dp"
+                android:layout_height="48dp" />
+
+            <ImageButton
+                android:id="@+id/btnFacebook"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_facebook"
+                android:contentDescription="@string/cd_facebook"
+                android:scaleType="centerInside"
+                android:tint="@null"
+                app:tint="@null"
+                android:layout_marginStart="16dp"
+                android:layout_width="48dp"
+                android:layout_height="48dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
