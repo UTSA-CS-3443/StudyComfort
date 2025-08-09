@@ -1,5 +1,5 @@
 # StudyComfort
-###  REQUESTED UML IS IN STUDYCOMFORT FILE IN TOP README FOLDER
+###  REQUESTED UML IS IN STUDYCOMFORT FILE AT TOP OF README FOLDER
 ### Description
 StudyComfort is an Android mobile application developed for the CS-3443 Applications Programming course at the University of Texas at San Antonio (UTSA). The application is designed to help UTSA students locate and choose study rooms that best meet their individual preferences and needs across campus.
 
