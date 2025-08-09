@@ -97,3 +97,5 @@ Feel free to verify the app works by:
 * Model — StudyRoom, Review, QuestionnaireResponse, User + repositories (RoomRepository, ReviewRepository, UserRepository)
 * Controller — AuthController, NavigationController, QuestionnaireController, RecommendationController
 * View — MainActivity, SignInActivity, CreateAccountActivity, QuestionnaireActivity, RecommendationsActivity, ReviewsActivity
+
+###  REQUESTED UML IS IN STUDYCOMFORT FILE AT TOP OF README FOLDER
